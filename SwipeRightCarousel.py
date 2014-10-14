@@ -12,7 +12,7 @@ from kivy.factory import Factory
 class MyClass(App):
 
     def build(self):   
-      # the root is created in pictures.kv
+      
         root = self.root
         
         # get any files into images directory
