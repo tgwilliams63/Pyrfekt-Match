@@ -1,4 +1,5 @@
 Pyrfekt-Match
 =============
 
-A dating app, similar to tinder, written using python and kivy
+Pyrfeck-Match is a dating app, similar to Tinder and Hot or Not.
+This app is writen in python, using kivy to generate the GUI.
