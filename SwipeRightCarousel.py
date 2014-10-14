@@ -19,6 +19,7 @@ class MyClass(App):
         curdir = dirname(__file__)
      
         carousel = Carousel(direction='right', loop='True')
+        #replace file_name with the directory where your pictures are located
         for filename in glob(join(curdir, 'file_name', '*')):
             image = Factory.AsyncImage(source=filename, allow_stretch=True)
             carousel.add_widget(image)
